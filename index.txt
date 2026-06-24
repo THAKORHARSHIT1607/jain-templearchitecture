@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jain Temple Torana Fragment</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+header{
+    background:#8B4513;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+.container{
+    max-width:1000px;
+    margin:20px auto;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+.lang-buttons{
+    text-align:center;
+    padding:20px;
+}
+
+button{
+    background:#8B4513;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    margin:5px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#6d3510;
+}
+
+.content{
+    padding:25px;
+}
+
+.language{
+    display:none;
+}
+
+.active{
+    display:block;
+}
+
+.info{
+    background:#f8efe7;
+    padding:15px;
+    border-left:5px solid #8B4513;
+    margin-bottom:20px;
+}
+
+h2{
+    color:#8B4513;
+    margin-bottom:10px;
+    margin-top:20px;
+}
+
+ul{
+    margin-left:25px;
+    line-height:1.8;
+}
+
+p{
+    line-height:1.8;
+}
+
+footer{
+    text-align:center;
+    background:#8B4513;
+    color:white;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Jain Temple Torana Fragment</h1>
+    <p>Shristhal Sangrahalay, Siddhpur</p>
+</header>
+
+<div class="container">
+
+    <img src="SAVE_20260623_092050.jpg" alt="Jain Temple Torana Fragment">
+
+    <div class="lang-buttons">
+        <button onclick="showLang('en')">English</button>
+        <button onclick="showLang('gu')">ગુજરાતી</button>
+        <button onclick="showLang('hi')">हिन्दी</button>
+    </div>
+
+    <div class="content">
+
+        <!-- English -->
+        <div id="en" class="language active">
+
+            <div class="info">
+                <strong>Artifact Name:</strong> Fragment of Jain Temple Torana<br>
+                <strong>Location:</strong> Shristhal Sangrahalay (Bindu Sarovar Museum), Siddhpur, Gujarat<br>
+                <strong>Period:</strong> Solanki (Chaulukya) Period, 11th–12th Century CE<br>
+                <strong>Material:</strong> Marble Stone
+            </div>
+
+            <h2>Description</h2>
+            <p>
+                This sculpture is a fragment of a decorative Jain temple torana
+                (ornamental arch). It features finely carved elephants,
+                devotees, divine figures and floral motifs. The artwork
+                represents the exceptional craftsmanship of medieval Gujarat.
+            </p>
+
+            <h2>Historical Importance</h2>
+            <p>
+                This architectural fragment was likely part of a Jain temple
+                entrance. It reflects the flourishing Jain culture and artistic
+                excellence of the Solanki period.
+            </p>
+
+            <h2>Significance</h2>
+            <ul>
+                <li>Symbol of Jain religious heritage</li>
+                <li>Masterpiece of Solanki-period sculpture</li>
+                <li>Evidence of Gujarat's cultural prosperity</li>
+                <li>Exceptional stone-carving craftsmanship</li>
+            </ul>
+
+        </div>
+
+        <!-- Gujarati -->
+        <div id="gu" class="language">
+
+            <div class="info">
+                <strong>વસ્તુનું નામ:</strong> જૈન મંદિરના તોરણનો ખંડ<br>
+                <strong>સ્થળ:</strong> શ્રીસ્થળ સંગ્રહાલય, સિદ્ધપુર, ગુજરાત<br>
+                <strong>સમયગાળો:</strong> સોલંકી યુગ (૧૧મી–૧૨મી સદી)<br>
+                <strong>સામગ્રી:</strong> આરસપહાણ (માર્બલ)
+            </div>
+
+            <h2>વર્ણન</h2>
+            <p>
+                આ શિલ્પકૃતિ જૈન મંદિરના અલંકારિક તોરણનો એક ભાગ છે.
+                તેમાં હાથીઓ, ઉપાસકો, દેવમૂર્તિઓ અને વેલ-બુટ્ટાની
+                સુંદર કોતરણી જોવા મળે છે.
+            </p>
+
+            <h2>ઐતિહાસિક મહત્વ</h2>
+            <p>
+                આ ખંડ સંભવતઃ જૈન મંદિરના પ્રવેશદ્વારનો ભાગ હતો.
+                તે મધ્યકાલીન ગુજરાતની ધાર્મિક અને સાંસ્કૃતિક સમૃદ્ધિનું
+                પ્રતિનિધિત્વ કરે છે.
+            </p>
+
+            <h2>મહત્વ</h2>
+            <ul>
+                <li>જૈન ધાર્મિક વારસાનું પ્રતીક</li>
+                <li>સોલંકી યુગની શિલ્પકળાનું ઉત્તમ ઉદાહરણ</li>
+                <li>ગુજરાતની સાંસ્કૃતિક સમૃદ્ધિનો પુરાવો</li>
+                <li>અદ્ભુત કોતરણી કળાનું દર્શન</li>
+            </ul>
+
+        </div>
+
+        <!-- Hindi -->
+        <div id="hi" class="language">
+
+            <div class="info">
+                <strong>वस्तु का नाम:</strong> जैन मंदिर के तोरण का खंड<br>
+                <strong>स्थान:</strong> श्रीस्थल संग्रहालय, सिद्धपुर, गुजरात<br>
+                <strong>काल:</strong> सोलंकी काल (11वीं–12वीं शताब्दी ईस्वी)<br>
+                <strong>सामग्री:</strong> संगमरमर
+            </div>
+
+            <h2>विवरण</h2>
+            <p>
+                यह शिल्पकृति जैन मंदिर के अलंकृत तोरण का एक भाग है।
+                इसमें हाथियों, भक्तों, देव आकृतियों तथा पुष्पीय अलंकरणों
+                की सुंदर नक्काशी दिखाई देती है।
+            </p>
+
+            <h2>ऐतिहासिक महत्व</h2>
+            <p>
+                यह स्थापत्य खंड संभवतः किसी जैन मंदिर के प्रवेशद्वार का
+                भाग था। यह मध्यकालीन गुजरात की धार्मिक और सांस्कृतिक
+                समृद्धि का महत्वपूर्ण प्रमाण है।
+            </p>
+
+            <h2>महत्व</h2>
+            <ul>
+                <li>जैन धार्मिक विरासत का प्रतीक</li>
+                <li>सोलंकी कालीन शिल्पकला की उत्कृष्ट कृति</li>
+                <li>गुजरात की सांस्कृतिक समृद्धि का प्रमाण</li>
+                <li>अद्भुत पत्थर नक्काशी कला का प्रदर्शन</li>
+            </ul>
+
+        </div>
+
+    </div>
+</div>
+
+<footer>
+© Shristhal Sangrahalay, Siddhpur
+</footer>
+
+<script>
+function showLang(lang){
+    document.querySelectorAll('.language').forEach(section=>{
+        section.classList.remove('active');
+    });
+    document.getElementById(lang).classList.add('active');
+}
+</script>
+
+</body>
+</html>
